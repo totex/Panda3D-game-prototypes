@@ -19,7 +19,7 @@ class IsometricGame2(ShowBase):
     def __init__(self):
         super().__init__()
         self.set_background_color(0, 0, 0, 1)
-        self.wireframeOn()
+        # self.wireframeOn()
 
         # set the camera to the correct position to create an isometric view
         self.cam.setPos(0, -12, 0)  # set cam global position
